@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/smgLightBlue"
+    tools:context="smg.tarek.rafa.systemmetricsgroup.activity.HomePageActivity">
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:textSize="25sp"
+        android:fontFamily="casual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/welcomeText"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:paddingTop="10sp" />
+
+    <ImageView
+        android:id="@+id/smgLogo"
+        android:src="@drawable/logo2"
+        android:layout_width="300sp"
+        android:layout_height="190sp"
+        android:layout_below="@id/welcomeText"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/companyDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/smgLogo"
+        android:text="@string/companyDescription"
+        android:textColor="@color/white"
+        android:fontFamily="casual"
+        android:padding="10sp"/>
+
+    <Button
+        android:id="@+id/locationButton"
+        android:text="Locations"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:background="@color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_alignParentBottom="true"/>
+
+    <Button
+        android:id="@+id/contactButton"
+        android:text="@string/contactText"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:background="@color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@id/companyDescription"
+        android:layout_marginRight="10sp"/>
+
+    <Button
+        android:id="@+id/seniorStaffButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/seniorStaffText"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:background="@color/transparent"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

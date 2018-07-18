@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">System Metrics Group, Inc.</string>
+    <string name="welcomeText">Welcome to the SMG App!</string>
+    <string name="companyDescription">System Metrics Group (SMG) is a transportation consulting firm founded by senior professionals with backgrounds in economics, civil engineering, and electrical engineering as well as advanced degrees in business, transportation engineering, and transportation planning. With offices in San Francisco and Los Angeles, SMG specializes in managing large and complex transportation strategy projects in California, but its professionals have national and international experience.</string>
+    <string name="companyDescriptionLong">System Metrics Group (SMG) is a transportation consulting firm founded by senior professionals with backgrounds in economics, civil engineering, and electrical engineering as well as advanced degrees in business, transportation engineering, and transportation planning. With offices in San Francisco and Los Angeles, SMG specializes in managing large and complex transportation strategy projects in California, but its professionals have national and international experience. SMG bridges the gap between transportation economics/planning/engineering and policy-level decision making. SMG’s work encompasses strategic planning, economic analysis, planning analysis, development of analysis tools, and the integration of performance measurement into decision making. SMG has proven expertise to manage projects requiring flexible leadership and the ability to synthesize and explain complicated issues clearly.</string>
+    <string name="contactText">Contact</string>
+    <string name="seniorStaffText">Senior Staff</string>
+    <string name="sfOfficeText">San Francisco Office</string>
+    <string name="sfAddressLine1">12 Geary Street Suite 705</string>
+    <string name="sfAddressLine2">San Francisco, CA 94108</string>
+    <string name="laOfficeText">Los Angeles Office</string>
+    <string name="laAddressLine1">510 West 6th Street Suite 1006</string>
+    <string name="laAddressLine2">Los Angeles, CA 90014</string>
+    <string name="directions">Directions</string>
+    <string name="locationsText">Locations</string>
+    <string name="placeholder">E. Pluribus Enum</string>
+    <string name="laPhoneNumber">213-382-1970</string>
+    <string name="sfPhoneNumber">415-395-7000</string>
+    <string name="contactsText">Contacts</string>
+</resources>

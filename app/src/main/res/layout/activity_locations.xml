@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/smgLightBlue"
+    tools:context="smg.tarek.rafa.systemmetricsgroup.activity.LocationsActivity">
+
+    <TextView
+        android:id="@+id/locationText"
+        android:text="Locations"
+        android:textSize="25sp"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:paddingTop="10sp"/>
+
+    <ImageView
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:src="@drawable/sf"
+        android:layout_below="@id/sfOfficeText"
+        android:layout_marginStart="25sp"/>
+
+    <ImageView
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:src="@drawable/la"
+        android:layout_below="@id/laOfficeText"
+        android:layout_marginStart="25sp"/>
+
+    <TextView
+        android:id="@+id/sfOfficeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/locationText"
+        android:text="@string/sfOfficeText"
+        android:textColor="@color/white"
+        android:fontFamily="casual"
+        android:textSize="20sp"
+        android:layout_marginStart="150sp"
+        android:layout_marginTop="20sp" />
+
+    <TextView
+        android:id="@+id/sfAddressLine1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sfAddressLine1"
+        android:fontFamily="casual"
+        android:textColor="@color/white"
+        android:layout_below="@id/sfOfficeText"
+        android:textSize="12sp"
+        android:layout_marginStart="150sp" />
+
+    <TextView
+        android:id="@+id/sfAddressLine2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sfAddressLine2"
+        android:fontFamily="casual"
+        android:textColor="@color/white"
+        android:layout_below="@id/sfAddressLine1"
+        android:textSize="12sp"
+        android:layout_marginStart="150sp"/>
+
+    <Button
+        android:id="@+id/sfDirections"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/directions"
+        android:textColor="@color/white"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:background="@color/transparent"
+        android:layout_below="@id/sfAddressLine2"
+        android:layout_marginStart="150sp" />
+
+    <TextView
+        android:id="@+id/laOfficeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sfAddressLine2"
+        android:text="@string/laOfficeText"
+        android:textColor="@color/white"
+        android:fontFamily="casual"
+        android:textSize="20sp"
+        android:layout_marginTop="100sp"
+        android:layout_marginStart="150sp" />
+
+    <TextView
+        android:id="@+id/laAddressLine1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/laAddressLine1"
+        android:fontFamily="casual"
+        android:textColor="@color/white"
+        android:layout_below="@id/laOfficeText"
+        android:textSize="12sp"
+        android:layout_marginStart="150sp" />
+
+    <TextView
+        android:id="@+id/laAddressLine2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/laAddressLine2"
+        android:fontFamily="casual"
+        android:textColor="@color/white"
+        android:layout_below="@id/laAddressLine1"
+        android:textSize="12sp"
+        android:layout_marginStart="150sp" />
+
+    <Button
+        android:id="@+id/laDirections"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/directions"
+        android:textColor="@color/white"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:background="@color/transparent"
+        android:layout_below="@id/laAddressLine2"
+        android:layout_marginStart="150sp" />
+
+</RelativeLayout>

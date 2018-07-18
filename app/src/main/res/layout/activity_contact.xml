@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/smgLightBlue"
+    tools:context="smg.tarek.rafa.systemmetricsgroup.activity.ContactActivity">
+
+    <TextView
+        android:id="@+id/contactText"
+        android:text="@string/contactsText"
+        android:textSize="25sp"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:paddingTop="10sp"/>
+
+    <ImageView
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:src="@drawable/sf"
+        android:layout_below="@id/sfOfficeContactPage"
+        android:layout_marginStart="25sp"/>
+
+    <ImageView
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:src="@drawable/la"
+        android:layout_below="@id/laOfficeText"
+        android:layout_marginStart="25sp"/>
+
+    <TextView
+        android:id="@+id/sfOfficeContactPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contactText"
+        android:text="@string/sfOfficeText"
+        android:textColor="@color/white"
+        android:fontFamily="casual"
+        android:textSize="20sp"
+        android:layout_marginStart="150sp"
+        android:layout_marginTop="20sp" />
+
+    <Button
+        android:id="@+id/sfPhoneLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sfPhoneNumber"
+        android:textColor="@color/white"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:background="@color/transparent"
+        android:layout_below="@id/sfOfficeContactPage"
+        android:layout_marginStart="150sp" />
+
+    <TextView
+        android:id="@+id/laOfficeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sfPhoneLine"
+        android:text="@string/laOfficeText"
+        android:textColor="@color/white"
+        android:fontFamily="casual"
+        android:textSize="20sp"
+        android:layout_marginTop="100sp"
+        android:layout_marginStart="150sp" />
+
+    <Button
+        android:id="@+id/laPhoneLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/laPhoneNumber"
+        android:textColor="@color/white"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:background="@color/transparent"
+        android:layout_below="@id/laOfficeText"
+        android:layout_marginStart="150sp" />
+
+</RelativeLayout>
